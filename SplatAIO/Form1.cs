@@ -17,40 +17,40 @@ namespace SplatAIO {
         // Addresses (diff = 0x0)
 
         // Player Stuff
-        private readonly uint rankAddress = 0x12CDC1A8;
-        private readonly uint okaneAddress = 0x12CDC1A0;
-        private readonly uint udeAddress = 0x12CDC1AC;
-        private readonly uint maeAddress = 0x12CDC1B0;
-        private readonly uint sazaeAddress = 0x12CDC1B4;
-        private readonly uint genderAddress = 0x12CD1D90;
-        private readonly uint eyesAddress = 0x12CD1D98;
-        private readonly uint skinAddress = 0x12CD1D94;
-        private readonly uint amiiboAddress = 0x12D1F130;
+        private readonly uint rankAddress      = 0x12CDC1A8;
+        private readonly uint okaneAddress     = 0x12CDC1A0;
+        private readonly uint udeAddress       = 0x12CDC1AC;
+        private readonly uint maeAddress       = 0x12CDC1B0;
+        private readonly uint sazaeAddress     = 0x12CDC1B4;
+        private readonly uint genderAddress    = 0x12CD1D90;
+        private readonly uint eyesAddress      = 0x12CD1D98;
+        private readonly uint skinAddress      = 0x12CD1D94;
+        private readonly uint amiiboAddress    = 0x12D1F130;
         private readonly uint minigamesAddress = 0x12CD1C40;
 
         // Octohax
-        private readonly uint tnkSimpleOneAddress = 0x10506BC0;
-        private readonly uint tnkSimpleTwoAddress = 0x105E62A0;
-        private readonly uint player00Address = 0x105EF3A0;
-        private readonly uint player00HlfAddress = 0x105EF3AC;
-        private readonly uint rivalSquidAddress = 0x105EF3BC;
+        private readonly uint tnkSimpleOneAddress   = 0x10506BC0;
+        private readonly uint tnkSimpleTwoAddress   = 0x105E62B0;
+        private readonly uint player00Address       = 0x105EF3B0;
+        private readonly uint player00HlfAddress    = 0x105EF3BC;
+        private readonly uint rivalSquidAddress     = 0x105EF3CC;
         private readonly uint tnkSimpleThreeAddress = 0x12BEB354;
-        private readonly uint tnkSimpleFourAddress = 0x12BEB3A0;
-        private readonly uint tnkSimpleFiveAddress = 0x12BEB3EC;
+        private readonly uint tnkSimpleFourAddress  = 0x12BEB3A0;
+        private readonly uint tnkSimpleFiveAddress  = 0x12BEB3EC;
 
         // Sisterhax
-        private readonly uint aoriAddress = 0x105EB5DC;
-        private readonly uint hotaruAddress = 0x105EB5E8;
+        private readonly uint aoriAddress           = 0x105E68E4;
+        private readonly uint hotaruAddress         = 0x105E68F0;
 
         // Gear
-        public static readonly uint weaponsAddress = 0x12CDADA0;
-        public static readonly uint hatsAddress = 0x12CD7DA0;
-        public static readonly uint clothesAddress = 0x12CD4DA0;
-        public static readonly uint shoesAddress = 0x12CD1DA0;
-        public static readonly uint equippedWeaponAddress = 0x12CD1D8C;
-        public static readonly uint equippedHatAddress = 0x12CD1D88;
+        public static readonly uint weaponsAddress         = 0x12CDADA0;
+        public static readonly uint hatsAddress            = 0x12CD7DA0;
+        public static readonly uint clothesAddress         = 0x12CD4DA0;
+        public static readonly uint shoesAddress           = 0x12CD1DA0;
+        public static readonly uint equippedWeaponAddress  = 0x12CD1D8C;
+        public static readonly uint equippedHatAddress     = 0x12CD1D88;
         public static readonly uint equippedClothesAddress = 0x12CD1D80;
-        public static readonly uint equippedShoesAddress = 0x12CD1D84;
+        public static readonly uint equippedShoesAddress   = 0x12CD1D84;
 
         // Addresses END
 
@@ -140,7 +140,7 @@ namespace SplatAIO {
             }
 
             // do a version check using "ToHu" of "ToHuman"
-            if (Gecko.peek(0x105EF3F0) != 0x546F4875)
+            if (Gecko.peek(0x105EF400) != 0x546F4875)
             {
                 MessageBox.Show(Properties.Strings.VERSION_CHECK_FAILED_TEXT);
 

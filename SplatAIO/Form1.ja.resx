@@ -123,6 +123,16 @@
   <data name="disconnectBox.Text" xml:space="preserve">
     <value>切断</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 17</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>自動</value>
+  </data>
+  <data name="refreshButton.Text" xml:space="preserve">
+    <value>再読込</value>
+  </data>
   <data name="skinBox.Items" xml:space="preserve">
     <value>1 - 白</value>
   </data>
@@ -135,7 +145,6 @@
   <data name="progressFlagsBox.Text" xml:space="preserve">
     <value>記録フラグ</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 13</value>
   </data>
@@ -277,17 +286,29 @@
   <data name="groupBox5.Text" xml:space="preserve">
     <value>アンロック</value>
   </data>
+  <data name="weaponsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="weaponsToolStripMenuItem.Text" xml:space="preserve">
+    <value>ブキ</value>
+  </data>
+  <data name="editorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 22</value>
+  </data>
+  <data name="editorsToolStripMenuItem.Text" xml:space="preserve">
+    <value>エディター</value>
+  </data>
   <data name="singlePlayerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 22</value>
+    <value>184, 22</value>
   </data>
   <data name="singlePlayerToolStripMenuItem.Text" xml:space="preserve">
     <value>シングルプレイヤー</value>
   </data>
   <data name="timerHaxToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 22</value>
+    <value>184, 22</value>
   </data>
   <data name="otherToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 20</value>
+    <value>80, 22</value>
   </data>
   <data name="otherToolStripMenuItem.Text" xml:space="preserve">
     <value>もっと見る</value>

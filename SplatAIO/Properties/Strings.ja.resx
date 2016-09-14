@@ -148,10 +148,10 @@
     <value>です。10（S+）に変更しますか？（「いいえ」に決めると、実態数値が表示されなくなり、本体BANの危険があります）</value>
   </data>
   <data name="CANNOT_REMOVE_JR_TEXT" xml:space="preserve">
-    <value>You cannot remove the Splattershot Jr.</value>
+    <value>わかばシューターは削除できません。</value>
   </data>
   <data name="CONNECTION_FAILED_TEXT" xml:space="preserve">
-    <value>Connection failed.\nMake sure that the provided IP address is correct and that TCPGecko is not being blocked by firewalls.</value>
+    <value>接続に失敗しました。\nIPアドレスとファイアウォールを検問してください。</value>
   </data>
   <data name="EQUIPPED" xml:space="preserve">
     <value>(EQUIPPED)</value>
@@ -160,19 +160,19 @@
     <value />
   </data>
   <data name="FIND_DIFF_FAILED_TEXT" xml:space="preserve">
-    <value>Could not find the Splattershot Jr. in memory. Try using TCPGecko from loadiine.ovh. If that does not work, then the AIO may need to be updated for a new version of Splatoon.</value>
+    <value>わかばシューターが見つかりません。loadiine.ovhでTCPGeckoを起動してください。</value>
   </data>
   <data name="INVALID" xml:space="preserve">
     <value>失敗</value>
   </data>
   <data name="INVALID_CLEAR_STATE" xml:space="preserve">
-    <value>違法なクリア状態</value>
+    <value>無効なクリア状態</value>
   </data>
   <data name="INVALID_IP_TEXT" xml:space="preserve">
-    <value>An invalid IP address was provided.</value>
+    <value>IPアドレスは無効です。</value>
   </data>
   <data name="INVALID_LEVEL_NUMBER" xml:space="preserve">
-    <value>違法なステージ号</value>
+    <value>無効なステージ号</value>
   </data>
   <data name="LEVEL_ALREADY_ADDED_TEXT" xml:space="preserve">
     <value>このステージはもう追加されています。 編集には、リストで右クリックしてください。</value>
@@ -181,7 +181,7 @@
     <value>いいえ</value>
   </data>
   <data name="SELECT_TIMER_TYPE_TEXT" xml:space="preserve">
-    <value>Please select a timer type.</value>
+    <value>タイマーを選んでください。</value>
   </data>
   <data name="SINGLE_PLAYER_RESET_TEXT" xml:space="preserve">
     <value>シングルプレイヤーのセーブデーターをすべて消します。 本当に進みますか？</value>
@@ -190,10 +190,10 @@
     <value>注意</value>
   </data>
   <data name="VERSION_CHECK_FAILED_TEXT" xml:space="preserve">
-    <value>The AIO is incompatible with this version of Splatoon. If there is an update available, please download the new update to continue using the AIO.</value>
+    <value>スプラトゥーンは更新されました。AIOの更新を待っていてください。</value>
   </data>
   <data name="WEAPON_EXISTS_TEXT" xml:space="preserve">
-    <value>This weapon has already been added. If you wish to edit it, please right click it in the list.</value>
+    <value>このブキはもう追加しています。編集にはリストで名前を右クリックしてください。</value>
   </data>
   <data name="YES" xml:space="preserve">
     <value>はい</value>
