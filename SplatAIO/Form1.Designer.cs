@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new SingleAssemblyComponentResourceManager(typeof(Form1));
             this.ipBox = new System.Windows.Forms.TextBox();
             this.connectBox = new System.Windows.Forms.Button();
             this.disconnectBox = new System.Windows.Forms.Button();

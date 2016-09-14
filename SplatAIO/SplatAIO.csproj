@@ -204,6 +204,9 @@
     <EmbeddedResource Include="WeaponEditForm.resx">
       <DependentUpon>WeaponEditForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="WeaponsForm.ja.resx">
+      <DependentUpon>WeaponsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="WeaponsForm.resx">
       <DependentUpon>WeaponsForm.cs</DependentUpon>
     </EmbeddedResource>

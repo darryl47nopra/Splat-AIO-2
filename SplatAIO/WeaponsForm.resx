@@ -264,8 +264,8 @@
   <data name="label1.Text" xml:space="preserve">
     <value>To edit a weapon, right click its name.</value>
   </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="equipBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 23</value>
   </data>
   <data name="addBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>106, 23</value>
@@ -291,8 +291,8 @@
   <data name="OKButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 250</value>
   </data>
-  <data name="equipBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 23</value>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

@@ -66,7 +66,7 @@ namespace SplatAIO {
         public int skin;
         public uint figure;
 
-        public static readonly int ver = 120;
+        public static readonly int ver = 121;
 
         public uint diff;
         public TCPGecko Gecko;

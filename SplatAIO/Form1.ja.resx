@@ -123,6 +123,9 @@
   <data name="disconnectBox.Text" xml:space="preserve">
     <value>切断</value>
   </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>統計</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 17</value>
@@ -214,8 +217,8 @@
   <data name="label1.Text" xml:space="preserve">
     <value>ランク</value>
   </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>統計</value>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>タコゾネスハック</value>
   </data>
   <data name="takoBox.Text" xml:space="preserve">
     <value>ZLでタコ</value>
@@ -223,8 +226,8 @@
   <data name="ikaBox.Text" xml:space="preserve">
     <value>ZLでイカ</value>
   </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>タコゾネスハック</value>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>シオカラハック</value>
   </data>
   <data name="normalBox.Text" xml:space="preserve">
     <value>修正</value>
@@ -237,9 +240,6 @@
   </data>
   <data name="aoriBox.Text" xml:space="preserve">
     <value>アオリを複写</value>
-  </data>
-  <data name="groupBox4.Text" xml:space="preserve">
-    <value>シオカラハック</value>
   </data>
   <data name="amiiboBox.Items" xml:space="preserve">
     <value>（なし）</value>
@@ -274,6 +274,9 @@
   <data name="label9.Text" xml:space="preserve">
     <value>IPアドレス:</value>
   </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>アンロック</value>
+  </data>
   <data name="gameButton.Text" xml:space="preserve">
     <value>ミニゲーム</value>
   </data>
@@ -283,20 +286,26 @@
   <data name="gearButton.Text" xml:space="preserve">
     <value>ギア</value>
   </data>
-  <data name="groupBox5.Text" xml:space="preserve">
-    <value>アンロック</value>
-  </data>
-  <data name="weaponsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="weaponsToolStripMenuItem.Text" xml:space="preserve">
-    <value>ブキ</value>
+  <data name="label10.Text" xml:space="preserve">
+    <value>For Splatoon v2.12</value>
   </data>
   <data name="editorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 22</value>
   </data>
   <data name="editorsToolStripMenuItem.Text" xml:space="preserve">
     <value>エディター</value>
+  </data>
+  <data name="weaponsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="weaponsToolStripMenuItem.Text" xml:space="preserve">
+    <value>ブキ</value>
+  </data>
+  <data name="otherToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 22</value>
+  </data>
+  <data name="otherToolStripMenuItem.Text" xml:space="preserve">
+    <value>もっと見る</value>
   </data>
   <data name="singlePlayerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 22</value>
@@ -306,12 +315,6 @@
   </data>
   <data name="timerHaxToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 22</value>
-  </data>
-  <data name="otherToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 22</value>
-  </data>
-  <data name="otherToolStripMenuItem.Text" xml:space="preserve">
-    <value>もっと見る</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3078,5 +3081,8 @@
         ////AAAA/////////////////////////////////wAAAP////////////////////////////////8A
         AAA=
 </value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Splat AIO 2: It's Him! (v1.2.1)</value>
   </data>
 </root>
