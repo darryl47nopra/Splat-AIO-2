@@ -39,8 +39,8 @@ namespace SplatAIO {
         private readonly uint tnkSimpleFiveAddress  = 0x12BEB3EC;
 
         // Sisterhax
-        private readonly uint aoriAddress           = 0x105E68E4;
-        private readonly uint hotaruAddress         = 0x105E68F0;
+        private readonly uint aoriAddress           = 0x105E68EC;
+        private readonly uint hotaruAddress         = 0x105E68F8;
 
         // Gear
         public static readonly uint weaponsAddress         = 0x12CDADA0;
